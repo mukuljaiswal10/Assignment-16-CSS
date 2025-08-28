@@ -1,0 +1,183 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: black;
+}
+.main 
+{
+    width: 650px;
+    height: 650px;
+    margin:0px auto;
+    margin-top: 20px;
+    position: relative;
+}
+@keyframes solarSystem 
+{
+    from 
+    {
+        transform: rotate(0deg);
+    }
+    to 
+    {
+        transform:rotate(360deg);
+    }
+}
+.solar-1 
+{
+    width: 650px;
+    height: 650px;
+    border: 1px solid #343A51;
+    border-radius: 50%;
+    position: relative;
+    animation: solarSystem 50s 0s infinite linear;
+}
+.dot-1 
+{
+    width: 20px;
+    height:20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 500px;
+    top:48px;
+}
+.dot-1-til 
+{
+    width: 20px;
+    height: 20px;
+    transform: skewY(60deg);
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+}
+.solar-2 
+{
+    width: 550px;
+    height: 550px;
+    border: 1px solid #343A51;
+    border-radius: 50%;
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    animation: solarSystem 40s 0s infinite linear;
+}
+.dot-2 
+{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rosybrown;
+    top: -5px;
+    left:300px;
+}
+.solar-3 
+{
+    width: 450px;
+    height: 450px;
+    border: 1px solid #343A51;
+    border-radius: 50%;
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    animation: solarSystem 30s 0s infinite linear;
+}
+.dot-3 
+{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:orange;
+    top: 5px;
+    left:300px;
+}
+.solar-4 
+{
+    width: 350px;
+    height:350px;
+    border: 1px solid #343A51;
+    border-radius: 50%;
+    position:absolute;
+    top: 150px;
+    left:150px;
+    animation: solarSystem 30s 0s infinite linear;
+}
+.dot-4 
+{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:skyblue;
+    top:115px;
+    left:0px;
+    animation: solarSystem 2s 0s infinite linear;
+}
+.dot-4-white
+{
+    position: absolute;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    background-color:white;
+    top:-10px;
+    left:0px;
+}
+.solar-5 
+{
+    width:250px;
+    height:250px;
+    border: 1px solid #343A51;
+    border-radius: 50%;
+    position:absolute;
+    top: 200px;
+    left:200px;
+    animation: solarSystem 6s 0s infinite linear;
+}
+.dot-5 
+{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:orange;
+    top: 65px;
+    left:0px;
+}
+.solar-6 
+{
+    width:150px;
+    height:150px;
+    border: 1px solid #343A51;
+    border-radius: 50%;
+    position:absolute;
+    top:250px;
+    left:250px;
+    animation: solarSystem 5s 0s infinite linear;
+}
+.dot-6 
+{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color:white;
+    top:40px;
+    left:0px;
+}
+.solar-7 
+{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    position:absolute;
+    top:300px;
+    left:300px;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 2px yellow;
+}
